@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang=ru>
+<head>
+	<meta charset=utf-8>
+	<title>Habrahabr.ru</title>
+</head>
+<body>
+  <header>
+    <aside>
+      <ul>
+        <li><a href=...>TM Feed</a></li>
+        <li><a href=...>Хабрахабр</a></li>
+        <li><a href=...>Geektimes</a></li>
+        <li><a href=...>Тостер</a></li>
+        <li><a href=...>Мой круг</a></li>
+        <li><a href=...>Фрилансим</a></li>
+      </ul>
+      <p>Спецпроекты:</p>
+      <ul>
+        <li><a href=...>Контент-маркетинг</a></li>
+        <li><a href=...>Создайте первую игру</a></li>
+        <li><a href=...>Дзен на дорогах</a></li>
+      </ul>
+    </aside>
+  </header>
+ 	<nav>
+		<a href="https://habrahabr.ru"><img src=".." alt="H"></a>
+		<h1>Разделы</h1>
+		<form>
+			<input name="searchСhapter" type="text">
+      <button type="submit"></button>
+		</form>
+		<ul>
+			<li><a href=...>Публикации</a></li>
+			<li><a href=...>Компании</a></li>
+			<li><a href=...>Пользователи</a></li>
+			<li><a href=...>Песочница</a></li>
+
+		</ul>
+		<h1>Спецпроекты</h1>
+		<ul>
+			<li><a href=...>Соберите свой стартап</a></li>
+			<li><a href=...>Linux в Azure</a></li>
+			<li><a href=...>Создай игру</a></li>
+		</ul>
+		<a href=...>Наверх</a>
+		<a href="https://habrahabr.ru/auth/login/">Войти</a>
+	</nav>
+  <main>
+  <article>
+    <figure>
+      <img src="..">
+      <figcaption>
+        <address href="https://habrahabr.ru/users/rayproud/"></address>
+        <p>Пользователь</p>
+        <meter value="0" max="1000" low="100" high="600">2,0</meter>
+        <p>карма</p>
+        <meter value="0" max="1000" low="100" high="600">0,0</meter>
+        <p>рейтинг</p>
+      </figcaption>
+    </figure>  
+    <ul>
+      <il><a href="...."><img src="">Профиль</a></il>
+      <il><a href="...."><data value="1">1</data>Публикации</a></il>
+      <il><a href="...."><data value="5">5</data>Комментарии</a></il>
+      <il><a href="...."><data value="0">0</data>Избранное</a></il>
+      <il><a href="...."><data value="0">0</data>Подписчики</a></il>
+    </ul>
+   
+  </article>
+	<article>
+    <time>2014-12-3 16:57</time>
+		<h2><a href=...>Разработка</a> → Десять типичных вопросов на собеседованиях на знание HTML <sup><a href=...>из песочницы</a></sup></h2>
+      <p><a href="...">Аурэлио Де Роза</a> несколько дней назад выпустил, на мой взгляд, очень привлекательную <a href="...">статью</a>, которой я хочу с вами поделиться на тот случай, если у вас плохо с английским. 
+      </p>
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <p>    Несколько недель назад на SitePoint были опубликованы две мои статьи, в которых я рассмотрел наиболее часто задаваемые на собеседовании вопросы по JavaScript (в случае, если вы пропустили: <a href="...">«5 Typical JavaScript Interview Exercises»</a> и <a href="...">«5 More JavaScript Interview Exercises»</a>).</p>
+
+      <p>Обе эти статьи имели огромный успех, что было крайне неожиданным. Я решил, что пришло время написать подобную статью, но уже на тему HTML — и вот, что у меня получилось.</p>
+
+			<h3>Валидация разметки</h3>
+			<p>Рассмотрим следующую разметку:</p>
+			<pre><code>
+        &lt;figure&gt;
+          &lt;picture&gt;
+            &lt;source media=&quot;(min-width: 40em)&quot;
+            srcset=&quot;large.jpg 1024w, medium.jpg 640w, small.jpg 320y&quot;&gt;
+            &lt;img src=&quot;medium.jpg&quot; alt=&quot;London by night&quot;&gt;
+          &lt;/picture&gt;
+          &lt;figcaption&gt;A landscape of London by night&lt;/figcaption&gt;
+        &lt;/figure&gt;
+			</code></pre>
+			<p>Валидный ли это код? Поясните, почему.</p>
+			<h3>Ответ</h3>
+			<p>В разметке используется <a href="...">тэг picture</a>, который совсем недавно вошел в спецификацию. Код валидный вплоть до последнего изображения в атрибуте <code>srcset</code>; <code>320y</code> — невалидное значение. Если изменить <code>y</code> на <code>w</code>, то код будет валидным полностью.</p>
+			<p>...</p>
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+			<p>...</p>
+      <article>
+        <form>
+          <submit>За</submit>
+          <meter>-5</meter>
+          <submit>Против</submit>
+        </form>
+        <ul>
+          <li><img><data>44,6k</data>
+          <li><img><data>281</data>
+        </ul>
+        <ul>
+          <li><a href="..."><img></a>
+          <li><a href="..."><img></a>
+          <li><a href="..."><img></a>
+        </ul>
+        <figure>
+          <img src="...">
+          <figcaption>
+            <address href="https://habrahabr.ru/users/rayproud/"></address>
+            <p>Пользователь</p>
+            <meter value="0" max="1000" low="100" high="600">2,0</meter>
+            <p>карма</p>
+            <meter value="0" max="1000" low="100" high="600">0,0</meter>
+            <p>рейтинг</p>
+          </figcaption>
+        </figure>  
+      </article>
+      <aside>
+        <h1>Самое читаемое</h1>
+        <br></br>
+        <ul>
+          <li><h2>Сейчас</h2></li>
+          <li><h2 href="...">Неделя</h2></li>
+          <li><h2 href="...">Месяц</h2></li>
+        </ul>
+        <ul>
+          <li><meter>+4</meter><h3 href="...">Python: Мышление программиста</h2></li>
+          <li><meter>+8</meter><h3 href="...">Пол Грэм: Пару слов о находчивости (A Word to the Resourceful)</h2></li>
+          <li><meter>+9</meter><h3 href="...">Генерация классов из БД с помощью DataGrip</h2></li>
+        </ul>
+      </aside>
+			<article>
+				<h1>Комментарии (42)</h1>
+        <h2>НЛО прилетело и опубликовало эту надпись здесь</h2>
+        <section>
+
+          <p><p>
+        </section>
+        <section>
+        </section>
+
+				
+			</article>
+	</article>  	
+
+  <aside>
+    <article>
+      <h1>Яндекс.директ</h1>
+
+    </article>
+  </aside>
+		
+
+  </main>
+  
+
+
+  <footer>
+  	<ul>
+  		<li>
+  			<ul>
+  				<li><a href=...>Войти</a></li>
+  				<li><a href=...>Регистрация</a></li>
+			  </ul>
+      </li>
+      <li>  
+  			<ul>Разделы
+  				<li><a href=...>Публикации</a></li> 
+  				<li><a href=...>Хабы</a></li> 
+  				<li><a href=...>Компании</a></li>
+  				<li><a href=...>Пользователи</a></li>
+  				<li><a href=...>Q&amp;A</a></li>
+  		  </ul>
+      </li>
+      <li></li>
+    </ul>
+  </footer>	
+</body>	
+</html>
