@@ -1,0 +1,52 @@
+/****/
+
+body, h1, dl, dt, dd
+{
+	margin: 0;
+}
+a, fieldset
+{
+	all: unset;
+}
+fieldset
+{
+	display: block;
+}
+
+/****/
+html
+{
+	background: #ECEEF4;
+}
+
+
+body
+{
+	max-width: 1284px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.nav-buttons
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 260px;
+}
+.order-details
+{
+	display: inline-table;
+
+}
+.order-buttons
+{
+	display: inline-block;
+}
+
+.order-buttons button
+{
+	display: block;
+}
