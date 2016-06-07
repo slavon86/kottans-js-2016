@@ -31,18 +31,19 @@ body
 {	
 	max-width: 900px;
 	
-	padding-left: 175px;
-	padding-right: 175px;
+	padding-left: 50px;
+	padding-right: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	
 }
+
 .header
 {
-	max-width: 900px;
+	max-width: 1000px;
 	
-	padding-left: 175px;
-	padding-right: 175px;
+	padding-left: 0px;
+	padding-right: 0px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	
@@ -64,6 +65,9 @@ body
 	align-items: center;
 	justify-content: space-between;
 	/*height: 260px;*/
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .heater
 {
@@ -100,10 +104,9 @@ body
 .footer-div
 {
 	
-	max-width: 900px;
+	max-width: 1000px;
 	
-	margin-left: auto;*/
-	margin-right: auto;*/
+	
 
 	margin-top: 165px;
 	padding-top: 110px;
@@ -114,7 +117,7 @@ body
 	color: #C6CCEA;
 }
 
-.go-back, .sign-in
+.nav-button
 {
 	height: 32px;
 	width: 166px;
