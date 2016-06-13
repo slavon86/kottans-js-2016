@@ -25,14 +25,15 @@ body
 	font-family: Arial;
 	font-size: 10pt;
 	color: #A0A6B8;
+
 }
 
 .main
 {	
-	max-width: 900px;
+	max-width: 1000px;
 	
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -73,6 +74,10 @@ body
 {
 	height: 270px;
 }
+.footer-div
+{
+	align-items: baseline;
+}
 .order-details
 {
 	display: inline-table;
@@ -90,6 +95,7 @@ body
 
 .logo
 {   
+	align-self: flex-start;
 	display: block;
 	width: 125px;
 	height: 125px;
@@ -106,7 +112,6 @@ body
 	
 	max-width: 1000px;
 	
-	
 
 	margin-top: 165px;
 	padding-top: 110px;
@@ -117,11 +122,13 @@ body
 	color: #C6CCEA;
 }
 
-.nav-button
+.nav-button, .place-order
 {
 	height: 32px;
 	width: 166px;
+	background: #ECEEF4;
 	border-color: #C9D0E1;
+	color: #C6CCEA;
 	border-radius: 4px;
 	border-width: 2px;
 	border-style: solid;
@@ -131,5 +138,59 @@ body
 	text-transform: uppercase;
 
 }
+.place-order
+{
+	height: 50px;
+	padding-top: 0px;
+	margin: 5px 5px 5px 5px;
+}
 
+ 
+ .your-order
+ {
+ 	min-width: 350px;
+ 	max-width: 600px;
+ 	height: 100px;
+ 
+ }
+ .your-order h1, .help-center h1
+ {
+ 	text-transform: uppercase;
+ 	font-size: 10pt;
+ 	padding: 10px;
+ }
+ .order-details td, .order-details th 
+ {
+ 	padding-right: 20px;
+ }
+
+ .help-center
+ {
+ 	min-width: 190px;
+ 	width: 250px;
+ 	height: 150px;
+ 	
+ }
+ .main-head
+ {
+ 	padding-left: 50px;
+ 	padding-right: 50px; 
+ 	display: flex;
+ 	justify-content: space-between;
+ 	flex-wrap: wrap; 
+ 	border-color: #C9D0E1;
+	border-width: 2px;
+	border-style: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+ }
+ .place-order-buttons
+ {
+ 	max-width: 170px;
+ 	max-height: 110px;
+ 	flex-direction: column;
+ 	padding: 20px;
+ 	
+ }
 
